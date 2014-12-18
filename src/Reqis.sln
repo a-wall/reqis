@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reqis", "Reqis.csproj", "{032589DB-0DF9-4F11-89F4-74E67611C0F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reqis", "Reqis\Reqis.csproj", "{032589DB-0DF9-4F11-89F4-74E67611C0F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reqis.Indexer", "..\Reqis.Indexer\Reqis.Indexer.csproj", "{389A36C9-54D8-4B53-A492-9F1205428217}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reqis.Indexer", "Reqis.Indexer\Reqis.Indexer.csproj", "{389A36C9-54D8-4B53-A492-9F1205428217}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reqis.Enquirer", "Reqis.Enquirer\Reqis.Enquirer.csproj", "{4FEB8793-CA2F-40EC-8BFB-A0F70D10371E}"
 EndProject
