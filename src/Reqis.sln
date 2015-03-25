@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reqis.Indexer", "Reqis.Inde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reqis.Enquirer", "Reqis.Enquirer\Reqis.Enquirer.csproj", "{4FEB8793-CA2F-40EC-8BFB-A0F70D10371E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Tests", ".Tests", "{437AB644-38A2-4E39-BF02-9CEE5999B547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Tests", ".Tests\Integration.Tests\Integration.Tests.csproj", "{F7AF3607-AD45-4319-A5CB-C6DEB5B870C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{4FEB8793-CA2F-40EC-8BFB-A0F70D10371E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FEB8793-CA2F-40EC-8BFB-A0F70D10371E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FEB8793-CA2F-40EC-8BFB-A0F70D10371E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AF3607-AD45-4319-A5CB-C6DEB5B870C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AF3607-AD45-4319-A5CB-C6DEB5B870C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AF3607-AD45-4319-A5CB-C6DEB5B870C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AF3607-AD45-4319-A5CB-C6DEB5B870C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7AF3607-AD45-4319-A5CB-C6DEB5B870C3} = {437AB644-38A2-4E39-BF02-9CEE5999B547}
 	EndGlobalSection
 EndGlobal

@@ -10,6 +10,9 @@ namespace Reqis.Enquirer
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Press any key to stop...");
+            Console.ReadKey();
         }
     }
 }
